@@ -1,0 +1,249 @@
+* {
+    margin:0;
+    padding:0;
+}
+#msg_sistema{
+    text-align: center;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    display: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#msg_sistema .icone{
+    display:inline-block;
+    margin-right: .3em;
+    margin-top: 5px;
+    padding-top: 0px;
+    text-indent: 0;
+}
+.erro, .sucesso, .aviso{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+.obrigatorio, .obrigatorio_tinymce_cor{
+    border-left: 2px solid red;
+}
+.div_input_obrigatorio{
+    background-color:#fee6a9;
+    padding: 2px;
+    margin: 2px;
+    display: inline;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+input, textarea, select{
+    border: 1px solid;
+    font: 12px Arial,Helvetica,sans-serif;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    margin: 3px 3px 3px 3px;
+    overflow: visible;
+}
+input, textarea{
+    padding: 4px 4px 4px 4px;
+    overflow: visible;
+}
+textarea{
+    width: 99%;
+    height: 400px;
+    overflow: visible;
+}
+select{
+    padding: 3px 3px 3px 3px;
+    overflow: visible;
+}
+input:focus, textarea:focus, select:focus{
+    border-color:#666;
+}
+input.textoErro, textarea.textoErro, select.textoErro{
+    border-color:#FF0000;
+}
+input.textoAviso, textarea.textoAviso, select.textoAviso{
+    border-color:#d9ff00;
+}
+input.textoSucesso, textarea.textoSucesso, select.textoSucesso{
+    border-color:#809d0f;
+}
+input.textoDisabled, textarea.textoDisabled, select.textoDisabled{
+    border-color:#CCCCCC;
+    background-color: #e8e8e8;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+label{
+    float: none;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 4px 0;
+}
+.conteudo_admin{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+}
+.bt_top{
+    margin-top: 22px;
+}
+
+.tabela{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+.tabela .cols0{
+    width: 0%;
+}
+.tabela .cols05{
+    width: 5%;
+}
+.tabela .cols10{
+    width: 10%;
+}
+.tabela .cols15{
+    width: 15%;
+}
+.tabela .cols20{
+    width: 20%;
+}
+.tabela .cols25{
+    width: 25%;
+}
+.tabela .cols30{
+    width: 30%;
+}
+.tabela .cols35{
+    width: 35%;
+}
+.tabela .cols40{
+    width: 40%;
+}
+.tabela .cols45{
+    width: 45%;
+}
+.tabela .cols50{
+    width: 50%;
+}
+.tabela .cols55{
+    width: 55%;
+}
+.tabela .cols60{
+    width: 60%;
+}
+.tabela .cols65{
+    width: 65%;
+}
+.tabela .cols70{
+    width: 70%;
+}
+.tabela .cols75{
+    width: 75%;
+}
+.tabela .cols80{
+    width: 80%;
+}
+.tabela .cols85{
+    width: 85%;
+}
+.tabela .cols90{
+    width: 90%;
+}
+.tabela .cols95{
+    width: 95%;
+}
+.tabela .cols100{
+    width: 100%;
+}
+.tabela tfoot,
+.tabela thead{
+    background-color: #ccc;
+    color: #a80101;
+    line-height: 25px;
+    height: 25px;
+    text-align: left;
+}
+.tabela tbody{
+    color: #000000;
+}
+.tabela tbody tr td{
+    line-height: 25px;
+    height: 25px;
+}
+.tabela tbody tr td.linha_ativa{
+    background-color: #fefe63;
+}
+.tabela tbody tr td.linha_par{
+    background-color: #cbacba;
+}
+.paginacao{
+    background-color: #cccccc;
+    margin: 5px 0;
+    padding: 5px;
+    text-align: right;
+}
+.paginacao a{
+    color: blue;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    padding: 2px 3px;
+    background: #ffffff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.paginacao strong{
+    color: red;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    padding: 2px 3px;
+    background: #ffffff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.file-wrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.file-wrapper .button {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 4px 18px;
+}
+.file-wrapper .ui-icon {
+    cursor: pointer;
+    display: block;
+    margin-left: 3px;
+}
+.file-wrapper input {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.exemplo_div{
+    font-size: 0.9em;
+    color: blue;
+    font-style: italic;
+}
+.lh{
+    line-height: 25px;
+}
